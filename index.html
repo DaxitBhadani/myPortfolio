@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/skn8ash.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- The cursor elements -->
+    <div class="cursor cursor--small"></div>
+    <canvas class="cursor cursor--canvas" resize></canvas>
+
+    <nav class="navbar clearHeader">
+        <div class="container">
+            <a class="navbar-brand" href="#">D.Designer</a>
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon-line"></span>
+                <span class="navbar-toggler-icon-line"></span>
+            </button>
+            <nav class="nav-menu" id="nav-navbar-spy">
+                <button class="navbar-toggler navbar-toggler-inner close" type="button">
+                    <span class="navbar-toggler-icon-line"></span>
+                    <span class="navbar-toggler-icon-line"></span>
+                </button>
+                <div class="nav-menu-inner" id="nav-navbar">
+                    <ul class="list-unstyled">
+                        <li class=""><a href="index.html">Home</a></li>
+                        <li class=""><a href="about.html">Resume</a></li>
+                        <li class=""><a href="services.html">Services</a></li>
+                        <li class=""><a href="portfolio.html">Portfolio</a></li>
+                        <li class=""><a href="blog.html">Blog</a></li>
+                        <!-- Dropdown menu
+                        <li class="dropdown"> <span>Dropdown <i class="ti-angle-down"></i></span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">Dropdown 1</a></li>
+                                <li class="dropdown-item"><a href="#">Dropdown 2</a></li>
+                                <li class="dropdown-item"><a href="#">Dropdown 3</a></li>
+                            </ul>
+                        </li>
+                        -->
+                        <li class=""><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    
+    <div class="mainScroll">
+        <section class="hero-section">
+            <div class="container">
+                <div class="row  flex-column-reverse flex-md-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="hero-left-section">
+                            <div class="hero-left">
+                                <h1 data-aos data-splitting>Daxit <br> Bhadani</h1>
+                                <h5 data-aos data-splitting>I’m a Web Designer & Devloper</h5>
+                                <p data-aos data-splitting>Hi, I am creative web designer,
+                                    who dream making the world better place by creating captivating products.
+                                </p>
+                                <div class="cv_link">
+                                    <a class="btn-epic" href="#" target="_blank">
+                                        <div>
+                                            <span>
+                                                Download my cv
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M8.47 10.6396L12 14.1596L15.53 10.6396" stroke="white"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            <span>
+                                                Download my cv
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M8.47 10.6396L12 14.1596L15.53 10.6396" stroke="white"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <!-- <a class="btn-epic" href="https://www.epicurrence.com/" target="_blank">
+                                <div><span> Download my CV 
+                                    <img src="./assets/img/arrowsquaredown.svg" alt="">
+                                </span><span> Download my CV
+                                    <img src="./assets/img/arrowsquaredown.svg" alt="">
+                                </span></div>
+                            </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="hero-right-section">
+                            <div class="hero-right">
+                                <img src="./assets/img/Hero_image.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="counter-section" id="counterSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter-blog">
+                            <h2>45 +</h2>
+                            <p>Projects</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter-blog">
+                            <h2>33 +</h2>
+                            <p>Design Appraisal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter-blog">
+                            <h2>3+</h2>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter-blog">
+                            <h2>25+</h2>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section banner banner-section" id="home">
+            <div class="bg-title">
+                <h2> About me </h2>
+            </div>
+            <div class="container banner-column">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 col-12">
+                        <div class="banner-inner-img">
+                            <div class="items">
+
+                                <div class="items__inner" id="js-scene">
+                                    <div class="about-centered-images" data-depth="0.85">
+                                        <!-- <img src="./assets/img/about.png" alt=""> -->
+                                    </div>
+
+                                    <div class="items__layer layer" data-depth="0.85">
+                                        <div class="items__item" data-title="no.1">
+                                            <div class="item-text">
+                                                <img src="./assets/img/figma.png" alt="figma">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="0.20">
+                                        <div class="items__item" data-title="no.2">
+                                            <div class="item-text">
+                                                <img src="./assets/img/css.png" alt="css">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="0.65">
+                                        <div class="items__item" data-title="no.3">
+                                            <div class="item-text">
+                                                <img src="./assets/img/laravel.png" alt="laravel">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="1.20">
+                                        <div class="items__item" data-title="no.4">
+                                            <div class="item-text">
+                                                <img src="./assets/img/javascript.png" alt="javascript">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="0.60">
+                                        <div class="items__item" data-title="no.5">
+                                            <div class="item-text">
+                                                <img src="./assets/img/bootstrap.png" alt="bootstrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="0.45">
+                                        <div class="items__item" data-title="no.6">
+                                            <div class="item-text">
+                                                <img src="./assets/img/HTML.png" alt="HTML">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items__layer layer" data-depth="1.00">
+                                        <div class="items__item" data-title="no.7">
+                                            <div class="item-text">
+                                                <img src="./assets/img/photoshop.png" alt="photoshop">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="about-centered-image items__layer layer" data-depth="0.25">
+                                        <div class="items__item" data-title="no.1">
+                                            <div class="item-text">
+                                                <img src="./assets/img/about.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="banner-inner">
+                            <h1>Solutions Innovator</h1>
+                            <p class="paragraph">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been
+                                the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley of
+                                type and
+                                scrambled it to make a type specimen book.
+                            </p>
+                            <a href="#" class="btn">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-left">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section id="sectionPin">
+            <div class="pin-wrap">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.</h2>
+                <img src="https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900"
+                    alt="">
+                <img src="https://images.pexels.com/photos/3371358/pexels-photo-3371358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900"
+                    alt="">
+                <img src="https://images.pexels.com/photos/3618545/pexels-photo-3618545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900"
+                    alt="">
+            </div>
+        </section>
+
+    </div>
+
+    <script src="./assets/js/wow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
+        integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
